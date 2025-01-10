@@ -1,0 +1,46 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+._navbar_f8aei_1 {
+  width: 300px !important; /* Độ rộng cố định của navbar */
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.content-container {
+  flex: 1; /* Chiếm toàn bộ không gian còn lại */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Canh giữa theo chiều ngang và dọc */
+  padding: 2rem;
+  overflow-y: auto;
+  width: 100%; /* Đảm bảo độ rộng full màn hình */
+  height: 100%; /* Đảm bảo chiều cao full màn hình */
+  background-color: #ffffff; /* Thêm màu nền để dễ kiểm tra */
+}
+
+.registerBox{
+  border: 2px solid grey;
+  width: 400px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.registerTitle{
+  font-size: 30px;
+}
